@@ -1,1 +1,23 @@
 #map { height: 600px; }
+
+.leaflet-container {
+  font-size: 16px;
+}
+
+.leaflet-popup-content {
+  overflow: hidden;
+}
+
+.leaflet-popup-content h2 {
+  margin-top: 5px;
+}
+
+.image-container {
+  float: left;
+  padding: 0 15px 15px 0;
+}
+
+.credit {
+  font-size: 10px;
+  color: #BBB;
+}
