@@ -219,6 +219,44 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 lunds.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * Union Depot
+ */
+var unionDepot = L.marker([44.9471505, -93.0855644]).addTo(map);
+heading = 'Union Depot';
+img = 'img/8351124559_921d3673f6_b.jpg';
+creditLink = 'https://flic.kr/p/dHXGoc';
+creditName = 'Jeb';
+creditLicense = 'CC-BY-NC-SA-2.0';
+bodyCopy = '<p>See what $250,000,000 can do? The recent refurbishment of this early 20th century train station allowed passenger train service to return to downtown St. Paul for the first time in over 40 years. Now, if only there was high-speed rail service to Chicago...</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+unionDepot.bindPopup(popUp, {minWidth: '600'});
+
+/**
+ * Upper Landing
+ */
+var upperLanding = L.marker([44.9402909,-93.0993906]).addTo(map);
+heading = 'Upper Landing';
+img = 'img/2833426603_dc0066e46d_b.jpg';
+creditLink = 'https://flic.kr/p/5jo41P';
+creditName = 'Greg Matthews';
+creditLicense = 'CC-BY-SA-2.0';
+bodyCopy = '<p>So named because it was the upstream counterpart to the Lower Steamboat Landing, this once bustling river port now is a park with walking/bike paths that you can take long distances either up or downstream.</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+upperLanding.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
