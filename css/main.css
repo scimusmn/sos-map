@@ -1,3 +1,17 @@
+body,
+.leaflet-container {
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 16px;
+}
+
 #map { height: 600px; }
 
 .leaflet-container {
