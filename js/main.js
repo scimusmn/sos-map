@@ -167,11 +167,11 @@ customHouse.bindPopup(popUp, {minWidth: '600'});
  */
 var districtHeating = L.marker([44.94291,-93.09667]).addTo(map);
 heading = 'St. Paul District Heating and Cooling';
-img = 'img/14106289332_28558b390c_b.jpg';
-creditLink = 'https://flic.kr/p/nuwqn3';
-creditName = 'Michael Hicks';
-creditLicense = 'CC-BY-2.0';
-bodyCopy = '<p>The U.S. Postal Service freed up this building two years ago for redevelopment. As with many cities, downtown Saint Paul is seeing a resurgence in urban living. Work will begin shortly to convert this building into apartments, condos, a hotel and mixed retail. </p>';
+img = 'img/5313163891_c5d0cd4734_b.jpg';
+creditLink = 'https://flic.kr/p/96vmvZ';
+creditName = 'brnpttmn';
+creditLicense = 'CC-BY-NC-SA-2.0';
+bodyCopy = '<p>One of the city’s best kept secrets, this plant generates 30 MW of electricity largely using waste wood collected mostly from the Twin Cities metropolitan area and then heats and cools 80% and 60% respectively of the downtown. It is the largest district system in the U.S. </p>';
 popUp = '<h2>' + heading + '</h2>' +
     '<div class="image-container">' +
     '  <img class="marker-image" width="200" src="' + img + '" />' +
