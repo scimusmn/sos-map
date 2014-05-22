@@ -200,6 +200,25 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 districtHeating.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * Central library
+ */
+var districtHeating = L.marker([44.94425,-93.09386]).addTo(map);
+heading = 'St. Paul City Hall / Ramsey Court House';
+img = 'img/1546812401_53a51d8112_z.jpg';
+creditLink = 'https://flic.kr/p/3mFPrk';
+creditName = 'Holly Higgins';
+creditLicense = 'CC-BY-2.0';
+bodyCopy = '<p>OK, you have to put up with passing through a metal detector but you just have to check out the enormous sculpture in the atrium of this building. </p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+districtHeating.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
