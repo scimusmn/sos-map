@@ -184,7 +184,7 @@ districtHeating.bindPopup(popUp, {minWidth: '600'});
 /**
  * Central library
  */
-var districtHeating = L.marker([44.94380,-93.09705]).addTo(map);
+var centralLibrary = L.marker([44.94380,-93.09705]).addTo(map);
 heading = 'James J. Hill Reference Library / Saint Paul Central Library';
 img = 'img/2058870277_6e84c4e9c4_b.jpg';
 creditLink = 'https://flic.kr/p/48Wfpp';
@@ -198,18 +198,18 @@ popUp = '<h2>' + heading + '</h2>' +
     '<a href="' + creditLink + '">' + creditName + '</a> / ' +
     creditLicense + '</div>' +
     '</div>' + bodyCopy;
-districtHeating.bindPopup(popUp, {minWidth: '600'});
+centralLibrary.bindPopup(popUp, {minWidth: '600'});
 
 /**
- * Central library
+ * Lunds
  */
-var districtHeating = L.marker([44.94425,-93.09386]).addTo(map);
-heading = 'St. Paul City Hall / Ramsey Court House';
-img = 'img/1546812401_53a51d8112_z.jpg';
-creditLink = 'https://flic.kr/p/3mFPrk';
-creditName = 'Holly Higgins';
+var lunds = L.marker([44.951411, -93.0950558]).addTo(map);
+heading = 'Lunds';
+img = 'img/14205050861_a6ff5d214b_b.jpg';
+creditLink = 'https://flic.kr/p/nDfAJ2';
+creditName = 'Michael Hicks';
 creditLicense = 'CC-BY-2.0';
-bodyCopy = '<p>OK, you have to put up with passing through a metal detector but you just have to check out the enormous sculpture in the atrium of this building. </p>';
+bodyCopy = '<p>Yeah, I know it’s just a supermarket but a rather nice one.  More importantly, it is the first in downtown in a very long time, an encouraging harbinger for the continued growth in downtown’s residential population. Pick up a snack. </p>';
 popUp = '<h2>' + heading + '</h2>' +
     '<div class="image-container">' +
     '  <img class="marker-image" width="200" src="' + img + '" />' +
@@ -217,7 +217,7 @@ popUp = '<h2>' + heading + '</h2>' +
     '<a href="' + creditLink + '">' + creditName + '</a> / ' +
     creditLicense + '</div>' +
     '</div>' + bodyCopy;
-districtHeating.bindPopup(popUp, {minWidth: '600'});
+lunds.bindPopup(popUp, {minWidth: '600'});
 
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
