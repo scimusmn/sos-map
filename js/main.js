@@ -162,6 +162,25 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 customHouse.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * St. Paul District Heating and Cooling
+ */
+var districtHeating = L.marker([44.94291,-93.09667]).addTo(map);
+heading = 'St. Paul District Heating and Cooling';
+img = 'img/14106289332_28558b390c_b.jpg';
+creditLink = 'https://flic.kr/p/nuwqn3';
+creditName = 'Michael Hicks';
+creditLicense = 'CC-BY-2.0';
+bodyCopy = '<p>The U.S. Postal Service freed up this building two years ago for redevelopment. As with many cities, downtown Saint Paul is seeing a resurgence in urban living. Work will begin shortly to convert this building into apartments, condos, a hotel and mixed retail. </p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+districtHeating.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
