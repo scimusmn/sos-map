@@ -257,6 +257,63 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 upperLanding.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * Mademoiselle Miel
+ */
+var mademoiselleMiel = L.marker([44.9479189,-93.1051926]).addTo(map);
+heading = 'Mademoiselle Miel';
+img = 'img/6882550156_4abb1d6f22_o.jpg';
+creditLink = 'https://flic.kr/p/bubSnS';
+creditName = 'mamichan';
+creditLicense = 'CC-BY-NC-2.0';
+bodyCopy = '<p>Honey from rooftop hives on Saint Paul buildings is used to create bon–bons. The kitchen/store is only open Friday afternoons but the bon-bons can be purchased at the Heartland Restaurant and Farm Direct Market at 5th St. & Broadway in Lowertown.</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+mademoiselleMiel.bindPopup(popUp, {minWidth: '600'});
+
+/**
+ * Cathedral Hill
+ */
+var cathedralHill = L.marker([44.94691,-93.10913]).addTo(map);
+heading = 'Cathedral Hill';
+img = 'img/7182386698_8a9427eb49_b.jpg';
+creditLink = 'https://flic.kr/p/bWFBkq';
+creditName = 'jpellgen';
+creditLicense = 'CC-BY-NC-ND-2.0';
+bodyCopy = '<p>A short (uphill) walk delivers you to a great neighborhood with charming streets, wonderful restaurants and the stunning St. Paul Cathedral (step inside!) W. A. Frost has a sublime leafy patio and Moscow on the Hill has great Russian cuisine and an awesome selection of vodkas.  (Żubrówka flavored with bison grass!)</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+cathedralHill.bindPopup(popUp, {minWidth: '600'});
+
+/**
+ * Summit Avenue
+ */
+var summitAvenue = L.marker([44.94284,-93.11520]).addTo(map);
+heading = 'Summit Avenue';
+img = 'img/8031707780_6f10694d6e_b.jpg';
+creditLink = 'https://flic.kr/p/deJAUm';
+creditName = 'Holly Hayes';
+creditLicense = 'CC-BY-NC-2.0';
+bodyCopy = '<p>Rent a Nice Ride and tour one of the best preserved Victorian residential boulevards in the U.S. Level terrain and dedicated bike lanes make this a relaxing and easy bike route (once you climb up out of the downtown St. Paul gravity well). </p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+summitAvenue.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
