@@ -181,6 +181,25 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 districtHeating.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * Central library
+ */
+var districtHeating = L.marker([44.94380,-93.09705]).addTo(map);
+heading = 'James J. Hill Reference Library / Saint Paul Central Library';
+img = 'img/2058870277_6e84c4e9c4_b.jpg';
+creditLink = 'https://flic.kr/p/48Wfpp';
+creditName = 'Jeremy Noble';
+creditLicense = 'CC-BY-2.0';
+bodyCopy = '<p>The reference library was recently named "the greatest historical treasure" among the nation’s library in a nationwide photo contest. Check it out and then go next door to explore the central library which went through a top-to-bottom restoration in 2002.</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+districtHeating.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
