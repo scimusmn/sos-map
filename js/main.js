@@ -314,6 +314,25 @@ popUp = '<h2>' + heading + '</h2>' +
     '</div>' + bodyCopy;
 summitAvenue.bindPopup(popUp, {minWidth: '600'});
 
+/**
+ * Urban Orchard
+ */
+var urbanOrchard = L.marker([44.94420,-93.15614]).addTo(map);
+heading = 'Urban Orchard';
+img = 'img/28109150_3d4609af69_b.jpg';
+creditLink = 'https://flic.kr/p/3u4Sw';
+creditName = 'Bryan Costin';
+creditLicense = 'CC-BY-SA-2.0';
+bodyCopy = '<p>The Eleanor Graham Community Garden is home to St.  Paul’s first organic orchard – my pet project. Shameless self promotion! How unMinnesotan of me. WWGKT?  (What would Garrison Keillor Think?) If you get this far west, Keillor’s bookstore is just a few blocks away.</p>';
+popUp = '<h2>' + heading + '</h2>' +
+    '<div class="image-container">' +
+    '  <img class="marker-image" width="200" src="' + img + '" />' +
+    '  <div class="credit">' +
+    '<a href="' + creditLink + '">' + creditName + '</a> / ' +
+    creditLicense + '</div>' +
+    '</div>' + bodyCopy;
+urbanOrchard.bindPopup(popUp, {minWidth: '600'});
+
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
