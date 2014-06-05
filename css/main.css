@@ -37,10 +37,12 @@ h3 {
 }
 
 .leaflet-popup-content-wrapper {
+  background-size: 100%;
   border-radius: 0;
 }
 
 .leaflet-popup-content {
+  background: rgba(255, 255, 255, .5);
   overflow: hidden;
 }
 
