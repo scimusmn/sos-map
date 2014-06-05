@@ -24,6 +24,18 @@ h3 {
   font-size: 16px;
 }
 
+/**
+ * Popup container including the shadow
+ */
+.leaflet-popup.smm {
+}
+
+/**
+ * Popup internal white box
+ */
+.smm .leaflet-popup-content-wrapper {
+}
+
 .leaflet-popup-content-wrapper {
   border-radius: 0;
 }
