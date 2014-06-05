@@ -1,4 +1,6 @@
-var map = L.map('map').setView([44.9425857,-93.0986076], 15);
+$( document ).ready( function(){
+    $('img.postcard').hide();
+})
 
 /**
  * SMM start
