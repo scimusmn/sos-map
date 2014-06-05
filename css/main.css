@@ -63,3 +63,8 @@ h3 {
   font-size: 10px;
   color: #BBB;
 }
+
+.headshot {
+  float: right;
+  -webkit-border-radius: 50em;
+}
