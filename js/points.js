@@ -261,7 +261,7 @@ var mapPoints = {
             "creditLink": "https://flic.kr/p/nDfAJ2",
             "creditName": "Michael Hicks",
             "creditLicense": "CC-BY-2.0",
-            "bodyCopy": "Yeah, I know it’s just a supermarket but a rather nice one.  More importantly, it is the first in downtown in a very long time, an encouraging harbinger for the continued growth in downtown’s residential population. Pick up a snack. ",
+            "bodyCopy": "Yeah, I know it’s just a supermarket but a rather nice one. More importantly, it is the first in downtown in a very long time, an encouraging harbinger for the continued growth in downtown’s residential population. Pick up a snack. ",
         },
         "geometry": {
             "type": "Point",
@@ -353,7 +353,7 @@ var mapPoints = {
             "creditLink": "https://flic.kr/p/bWFBkq",
             "creditName": "jpellgen",
             "creditLicense": "CC-BY-NC-ND-2.0",
-            "bodyCopy": "A short (uphill) walk delivers you to a great neighborhood with charming streets, wonderful restaurants and the stunning St. Paul Cathedral (step inside!) W. A. Frost has a sublime leafy patio and Moscow on the Hill has great Russian cuisine and an awesome selection of vodkas.  (Żubrówka flavored with bison grass!)",
+            "bodyCopy": "A short (uphill) walk delivers you to a great neighborhood with charming streets, wonderful restaurants and the stunning St. Paul Cathedral (step inside!) W. A. Frost has a sublime leafy patio and Moscow on the Hill has great Russian cuisine and an awesome selection of vodkas. (Żubrówka flavored with bison grass!)",
         },
         "geometry": {
             "type": "Point",
@@ -399,7 +399,7 @@ var mapPoints = {
             "creditLink": "https://flic.kr/p/3u4Sw",
             "creditName": "Bryan Costin",
             "creditLicense": "CC-BY-SA-2.0",
-            "bodyCopy": "The Eleanor Graham Community Garden is home to St.  Paul’s first organic orchard – my pet project. Shameless self promotion! How unMinnesotan of me. WWGKT?  (What would Garrison Keillor Think?) If you get this far west, Keillor’s bookstore is just a few blocks away.",
+            "bodyCopy": "The Eleanor Graham Community Garden is home to St. Paul’s first organic orchard – my pet project. Shameless self promotion! How unMinnesotan of me. WWGKT? (What would Garrison Keillor Think?) If you get this far west, Keillor’s bookstore is just a few blocks away.",
         },
         "geometry": {
             "type": "Point",
