@@ -2,20 +2,10 @@ $( document ).ready( function(){
     $('img.postcard').hide();
 })
 
-var redMarker = L.AwesomeMarkers.icon({
-    icon: 'coffee',
-    markerColor: 'red'
-});
-
 /**
  * Initiate map object and set its center point
  */
 var map = L.map('map').setView([44.948041,-93.100913], 15);
-
-/**
- * Set up a red marker icon
- */
-L.marker([44.9425857,-93.0986076], {icon: redMarker}).addTo(map);
 
 /**
  * Add GeoJson object to the map
