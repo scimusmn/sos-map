@@ -36,6 +36,11 @@ function changeLegend(e) {
         layer.feature.properties.creditLicense + ' ' +
         '</a>'
     $('.credit').html(credit);
+
+    /**
+     * Pan the map so that a point is in the center when it is clicked.
+     */
+    map.panTo(e.latlng);
 };
 
 function activateMarker(target) {
