@@ -417,10 +417,10 @@ var mapPoints = {
         "type": "Feature",
         "properties": {
             "heading": "Urban Orchard",
-            "img": "img/28109150_3d4609af69_b.jpg",
-            "creditLink": "https://flic.kr/p/3u4Sw",
-            "creditName": "Bryan Costin",
-            "creditLicense": "CC-BY-SA-2.0",
+            "img": "img/peaches.jpg",
+            "creditLink": "http://www.smm.org",
+            "creditName": "Pat Hamilton",
+            "creditLicense": "All rights reserved",
             "bodyCopy": "The Eleanor Graham Community Garden is home to St. Paul’s first organic orchard – my pet project. Shameless self promotion! How unMinnesotan of me. WWGKT? (What would Garrison Keillor Think?) If you get this far west, Keillor’s bookstore is just a few blocks away.",
         },
         "geometry": {
