@@ -18,6 +18,43 @@ h3 {
 
 #map {
   height: 500px;
+  border: 4px #CCC solid;
+  /*box-shadow: 2px 2px 20px #222;*/
+  /*transform: rotate(1deg);*/
+  /*-ms-transform: rotate(1deg); [> IE 9 <]*/
+  /*-webkit-transform: rotate(1deg); [> Safari and Chrome <]*/
+  /*-o-transform: rotate(1deg); [> Opera <]*/
+  /*-moz-transform: rotate(1deg); [> Firefox <]*/
+  /*-webkit-backface-visibility: hidden;*/
+  /*border: 5px #FFF solid;*/
+}
+
+.map-instructions {
+  margin: 5px 0 0 0;
+  color: #BBB;
+  font-size: 12px;
+}
+
+.postcard-holder {
+  background: #FFF;
+  margin: -5px 0 15px 0;
+  border: 5px #FFF solid;
+  transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Safari and Chrome */
+  -o-transform: rotate(-1deg); /* Opera */
+  -moz-transform: rotate(-1deg); /* Firefox */
+  -webkit-backface-visibility: hidden;
+  box-shadow: 1px 1px 15px #222;
+}
+.credit {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  font-size: 1em;
+}
+.credit a {
+  color: #DDD;
 }
 
 .leaflet-container {
