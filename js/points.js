@@ -10,9 +10,9 @@ var mapPoints = {
         "properties": {
             "heading": "Science Museum of Minnesota",
             "img": "img/SMM_2-small.jpg",
-            "creditLink": "https://flic.kr/p/6Qf1WV",
-            "creditName": "Sharyn Morrow",
-            "creditLicense": "CC-BY-NC-ND-2.0",
+            "creditLink": "http://smm.org",
+            "creditName": "SMM",
+            "creditLicense": "All rights reserved",
             "bodyCopy": "The conference will take place here.",
         },
         "geometry": {
