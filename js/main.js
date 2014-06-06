@@ -1,5 +1,5 @@
 $( document ).ready( function(){
-    $('img.postcard').hide();
+    $('.postcard-holder').hide();
 })
 
 /**
