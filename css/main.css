@@ -32,7 +32,14 @@ h3 {
 .map-instructions {
   margin: 5px 0 0 0;
   color: #BBB;
+}
+
+.map-instructions p {
   font-size: 12px;
+}
+.map-instructions p a {
+  color: #BBB;
+  text-decoration: underline;
 }
 
 .postcard-holder {
@@ -47,6 +54,7 @@ h3 {
   -webkit-backface-visibility: hidden;
   box-shadow: 1px 1px 15px #222;
 }
+
 .credit {
   position: absolute;
   bottom: 0;

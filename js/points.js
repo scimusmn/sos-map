@@ -119,7 +119,7 @@ var mapPoints = {
         "type": "Feature",
         "properties": {
             "heading": "Landmark Center",
-            "img": "img/2103663481_2b337483a6_z.jpg",
+            "img": "img/29999783_45a66e4636_z.jpg",
             "creditLink": "https://flic.kr/p/4cTPS2",
             "creditName": "Teresa Boardman",
             "creditLicense": "CC-BY-NC-SA-2.0",
