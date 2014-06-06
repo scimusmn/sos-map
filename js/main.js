@@ -15,14 +15,10 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', 
     maxZoom: 18
 }).addTo(map);
 
-function onEachFeature(feature, layer) {
-    layer.on({
-        click: changeLegend
-    });
-};
-
-function changeLegend(e) {
-    activateMarker(e.target);
+function highlightMarker(e) {
+    /**
+     * Change info pane with point information
+     */
     var layer = e.target;
     var props = layer.feature.properties;
     $('img.headshot').remove();
@@ -43,15 +39,31 @@ function changeLegend(e) {
     map.panTo(e.latlng);
 };
 
-function activateMarker(target) {
-    console.log("fker" + target);
-    target.setIcon(redMarker);
+function resetColors(features) {
+    console.log('Features');
+    console.log(features);
+    for (var i = 0; i < features.length; i++) {
+        console.log('Properties');
+        console.log(features[i].properties);
+        //geoJson[i].properties['marker-color'] = geoJson[i].properties['old-color'] ||
+            //geoJson[i].properties['marker-color'];
+    }
+    //myLayer.setGeoJSON(geoJson);
 }
 
-geojson = L.geoJson(mapPoints, {
-    //style: style,
-    onEachFeature: onEachFeature
-}).addTo(map);
+function onEachFeature(feature, layer) {
+    /**
+     * Add popups for all map points
+     */
+    layer.bindPopup(feature.properties.heading);
+
+    /**
+     * Change the content on the left sidebar on click
+     */
+    layer.on({
+        click: highlightMarker
+    });
+};
 
 /**
  * Add GeoJson object to the map
