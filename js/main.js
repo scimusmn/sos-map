@@ -43,7 +43,7 @@ function onEachFeature(feature, layer) {
     /**
      * Add popups for all map points
      */
-    layer.bindPopup(feature.properties.heading);
+    layer.bindPopup(feature.properties.heading, {closeButton: false});
 
     /**
      * Change the content on the left sidebar on click
