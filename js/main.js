@@ -8,11 +8,11 @@ $( document ).ready( function(){
 var map = L.map('map').setView([44.948041,-93.100913], 13);
 
 /**
- * Add GeoJson object to the map
+ * Add Open Street Map tiles from TileMill
  */
-//L.geoJson(mapPoints).addTo(map);
-L.geoJson(mapPoints, {
-    onEachFeature: onEachFeature
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
 }).addTo(map);
 
 function onEachFeature(feature, layer) {
@@ -43,9 +43,9 @@ geojson = L.geoJson(mapPoints, {
 }).addTo(map);
 
 /**
- * Add Open Street Map tiles from TileMill
+ * Add GeoJson object to the map
  */
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/bkennedy.i9o0b4hb/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
+var geojson;
+geojson = L.geoJson(mapPoints, {
+    onEachFeature: onEachFeature
 }).addTo(map);
