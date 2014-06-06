@@ -47,6 +47,28 @@ var mapPoints = {
     },
 
     /**
+     * City Hall
+     */
+    {
+        "type": "Feature",
+        "properties": {
+            "heading": "St. Paul City Hall / Ramsey County Courthouse",
+            "img": "img/1546812401_53a51d8112_z.jpg",
+            "creditLink": "https://flic.kr/p/3mFPrk",
+            "creditName": "Holly Higgins",
+            "creditLicense": "CC-BY-2.0",
+            "bodyCopy": "OK, you have to put up with passing through a metal detector but you just have to check out the enormous sculpture in the atrium of this building.",
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -93.09393882751463,
+                44.94427933506823
+            ]
+        }
+    },
+
+    /**
      * Mears Park
      */
     {
