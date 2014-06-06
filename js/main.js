@@ -5,7 +5,7 @@ $( document ).ready( function(){
 /**
  * Initiate map object and set its center point
  */
-var map = L.map('map').setView([44.948041,-93.100913], 15);
+var map = L.map('map').setView([44.948041,-93.100913], 13);
 
 /**
  * Add GeoJson object to the map
