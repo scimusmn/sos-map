@@ -119,10 +119,10 @@ var mapPoints = {
         "type": "Feature",
         "properties": {
             "heading": "Landmark Center",
-            "img": "img/29999783_45a66e4636_z.jpg",
-            "creditLink": "https://flic.kr/p/3dktd",
-            "creditName": "Michael Hicks",
-            "creditLicense": "CC-BY-2.0",
+            "img": "img/2103663481_2b337483a6_z.jpg",
+            "creditLink": "https://flic.kr/p/4cTPS2",
+            "creditName": "Teresa Boardman",
+            "creditLicense": "CC-BY-NC-SA-2.0",
             "bodyCopy": "Walk around the exterior of this exquisite building, then stroll through its interior. The plan in the 1970s was to demolish this former federal courthouse and replace it with a surface parking lot. Pretty crazy stupid, right?",
         },
         "geometry": {
