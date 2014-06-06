@@ -28,7 +28,7 @@ function highlightMarker(e) {
     $('.body-copy').html(layer.feature.properties.bodyCopy);
     var credit =
         '<a href="' + layer.feature.properties.creditLink + '">' +
-        layer.feature.properties.creditname + ' ' +
+        layer.feature.properties.creditName + ' ' +
         layer.feature.properties.creditLicense + ' ' +
         '</a>'
     $('.credit').html(credit);
