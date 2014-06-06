@@ -39,18 +39,6 @@ function highlightMarker(e) {
     map.panTo(e.latlng);
 };
 
-function resetColors(features) {
-    console.log('Features');
-    console.log(features);
-    for (var i = 0; i < features.length; i++) {
-        console.log('Properties');
-        console.log(features[i].properties);
-        //geoJson[i].properties['marker-color'] = geoJson[i].properties['old-color'] ||
-            //geoJson[i].properties['marker-color'];
-    }
-    //myLayer.setGeoJSON(geoJson);
-}
-
 function onEachFeature(feature, layer) {
     /**
      * Add popups for all map points
