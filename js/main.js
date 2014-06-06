@@ -26,7 +26,7 @@ function changeLegend(e) {
     var layer = e.target;
     var props = layer.feature.properties;
     $('img.headshot').remove();
-    $('img.postcard').show();
+    $('.postcard-holder').show();
     $('.heading').html(props.heading);
     $('.postcard').attr('src', props.img);
     $('.body-copy').html(layer.feature.properties.bodyCopy);
