@@ -1,3 +1,7 @@
+body {
+  background: url('../img/light_grey.png');
+}
+
 body,
 .leaflet-container {
   font-family: 'Lora', serif;
