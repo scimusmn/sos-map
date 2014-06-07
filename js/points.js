@@ -227,6 +227,29 @@ var mapPoints = {
 
 
     /**
+     * Louis Ristorante
+     */
+    {
+        "type": "Feature",
+        "properties": {
+            "heading": "Louis Ristorante",
+            "img": "img/54bus-209.jpg",
+            "creditLink": "http://www.smm.org",
+            "creditName": "Pat Hamilton",
+            "creditLicense": "All rights reserved",
+            "bodyCopy": "I love a drink with a view.  The Holiday Inn has a pleasant rooftop tavern but the Louis has a nice outdoor drinking roost with an amazing Italian market and dessert shop on the first floor.",
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -93.10413926839828,
+                44.94370030436298
+            ]
+        }
+    },
+
+
+    /**
      * St. Paul District Heating and Cooling
      */
     {
