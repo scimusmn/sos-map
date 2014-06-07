@@ -306,7 +306,7 @@ var mapPoints = {
             "creditLink": "https://flic.kr/p/dHXGoc",
             "creditName": "Jeb",
             "creditLicense": "CC-BY-NC-SA-2.0",
-            "bodyCopy": "See what $250,000,000 can do? The recent refurbishment of this early 20th century train station allowed passenger train service to return to downtown St. Paul for the first time in over 40 years. Now, if only there was high-speed rail service to Chicago...",
+            "bodyCopy": "See what $243,000,000 can do? The recent refurbishment of this early 20th century train station allowed passenger train service to return to downtown St. Paul for the first time in over 40 years. Now, if only there was high-speed rail service to Chicago...",
         },
         "geometry": {
             "type": "Point",
