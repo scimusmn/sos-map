@@ -5,7 +5,7 @@ $( document ).ready( function(){
 /**
  * Initiate map object and set its center point
  */
-var map = L.map('map').setView([44.948041,-93.100913], 13);
+var map = L.map('map').setView([44.94423756911442,-93.11861515045165], 13);
 
 /**
  * Add Open Street Map tiles from TileMill
