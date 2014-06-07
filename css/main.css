@@ -5,6 +5,7 @@ body {
 body,
 .leaflet-container {
   font-family: 'Lora', serif;
+  font-size: 1.6em;
 }
 
 h2, h3 {
