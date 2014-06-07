@@ -233,10 +233,10 @@ var mapPoints = {
         "type": "Feature",
         "properties": {
             "heading": "St. Paul District Heating and Cooling",
-            "img": "img/5313163891_c5d0cd4734_b.jpg",
-            "creditLink": "https://flic.kr/p/96vmvZ",
-            "creditName": "brnpttmn",
-            "creditLicense": "CC-BY-NC-SA-2.0",
+            "img": "img/202-EnergyPlant-from-Plaza.jpg",
+            "creditLink": "http://www.districtenergy.com/",
+            "creditName": "District Energy",
+            "creditLicense": "All rights reserved",
             "bodyCopy": "One of the city’s best kept secrets, this plant generates 30 MW of electricity largely using waste wood collected mostly from the Twin Cities metropolitan area and then heats and cools 80% and 60% respectively of the downtown. It is the largest district system in the U.S. ",
         },
         "geometry": {
